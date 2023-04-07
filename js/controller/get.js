@@ -20,7 +20,7 @@ function isiRow(value) {
           .replace(/#WARNALOGO#/g, getRandomColorName());
   addInner("iniTabel", content);
 }
-
+ 
 
 /* export function isiTablep1(results) {
   results.forEach(isiRowp1);
