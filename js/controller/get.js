@@ -20,3 +20,32 @@ function isiRow(value) {
           .replace(/#WARNALOGO#/g, getRandomColorName());
   addInner("iniTabel", content);
 }
+
+export function isiTabelmhs(results) {
+  results.forEach(isiRowmhs);
+}
+function isiRow(value) {
+  let content = 
+  isiTabelmhs.replace("#NAMA#", value.nama)
+          .replace("#NPM#", value.npm)
+          .replace("#JURUSAN#", value.jurusan.nama)
+          .replace("#PRODI#", value.prodi.nama)
+          .replace("#KELAS#", value.kelas)
+          .replace("#WARNA#", getRandomColor())
+          .replace(/#WARNALOGO#/g, getRandomColorName());
+  addInner("iniTabelmhs", content);
+}
+
+export function isiTabeldsn(results) {
+  results.forEach(isiRowdsn);
+}
+function isiRowdsn(value) {
+  let content = 
+  isiTabeldsn.replace("#NAMA#", value.nama)
+          .replace("#NID#", value.nid)
+          .replace("#JURUSAN#", value.jurusan.nama)
+          .replace("#PRODI#", value.prodi.nama)
+          .replace("#WARNA#", getRandomColor())
+          .replace(/#WARNALOGO#/g, getRandomColorName());
+  addInner("iniTabeldsn", content);
+}
