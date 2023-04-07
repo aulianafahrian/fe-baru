@@ -35,7 +35,7 @@ function openNav() {
         content.classList.remove("ml-12")
         content.classList.add("ml-12","md:ml-60")
     }else{
-        // mini sidebar
+       /*  // mini sidebar
         sidebar.classList.add("-translate-x-48")
         sidebar.classList.remove("translate-x-none")
         maxSidebar.classList.add("hidden")
@@ -46,7 +46,7 @@ function openNav() {
         maxToolbar.classList.remove("translate-x-0")
         logo.classList.add('ml-12')
         content.classList.remove("ml-12","md:ml-60")
-        content.classList.add("ml-12")
+        content.classList.add("ml-12") */
 
     }
 
