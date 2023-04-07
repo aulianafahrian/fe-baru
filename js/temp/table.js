@@ -38,7 +38,7 @@ export let isiTabelmhs =
 export let isiTabeldsn = 
 `
 <tr class="h-18 border-b border-coolGray-100">
-    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-justify">#NAMA#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#NAMA#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#NID#</th>
     <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#PRODI#</th>
     </th>
