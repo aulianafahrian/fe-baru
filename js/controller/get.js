@@ -24,7 +24,7 @@ function isiRow(value) {
 export function isiTabelmhs(results) {
   results.forEach(isiRowmhs);
 }
-function isiRow(value) {
+function isiRowmhs(value) {
   let content = 
   isiTabelmhs.replace("#NAMA#", value.nama)
           .replace("#NPM#", value.npm)
