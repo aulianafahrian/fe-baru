@@ -5,10 +5,6 @@ export function isiTable(results) {
   results.forEach(isiRow);
 }
 
-export function isiTablep1(results) {
-  results.forEach(isiRowp1);
-}
-
 
 function isiRow(value) {
   let content = 
@@ -26,6 +22,11 @@ function isiRow(value) {
   addInner("iniTabel", content);
 }
 
+export function isiTablep1(results) {
+  results.forEach(isiRowp1);
+}
+
+
 function isiRowp1(value) {
   let content = 
   isiTabelp1.replace("#NAMA#", value.biodata_mahasiswa.nama)
@@ -36,6 +37,7 @@ function isiRowp1(value) {
           .replace("#DOSENPENGUJI#", value.dosen_penguji.nama)
           .replace("#JUDUL#", value.judul)
           .replace("#TANGGALSIDANG#", value.tanggal_sidang)
-
+          replace("#WARNA#", getRandomColor())
+          .replace(/#WARNALOGO#/g, getRandomColorName());
   addInner("iniTabelp1", content);
 }
