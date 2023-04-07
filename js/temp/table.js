@@ -7,9 +7,6 @@ export let isiTabel =
                 <input class="w-4 h-4 bg-white rounded" type="checkbox">
             </div>
             <div class="w-auto p-2">
-                <div class="flex items-center justify-center w-10 h-10 text-base font-medium text-#WARNALOGO#-600 bg-#WARNALOGO#-200 rounded-md">ULBI</div>
-            </div>
-            <div class="w-auto p-2">
                 <p class="text-xs font-semibold text-coolGray-800">#NAMA#</p>
                 <p class="text-xs font-medium text-coolGray-500">#NPM#</p>
             </div>
