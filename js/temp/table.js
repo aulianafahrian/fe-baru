@@ -4,9 +4,6 @@ export let isiTabel =
     <th class="whitespace-nowrap px-4 bg-white text-left">
         <div class="flex items-center -m-2">
             <div class="w-auto p-2">
-                <input class="w-4 h-4 bg-white rounded" type="checkbox">
-            </div>
-            <div class="w-auto p-2">
                 <p class="text-xs font-semibold text-coolGray-800">#NAMA#</p>
                 <p class="text-xs font-medium text-coolGray-500">#NPM#</p>
             </div>
