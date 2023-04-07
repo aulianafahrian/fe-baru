@@ -1,11 +1,11 @@
 import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
 import { isiTabel, isiTabelp1 } from "../temp/table.js";
+
+
 export function isiTable(results) {
   results.forEach(isiRow);
 }
-
-
 function isiRow(value) {
   let content = 
   isiTabel.replace("#NAMA#", value.biodata_mahasiswa.nama)
@@ -21,11 +21,10 @@ function isiRow(value) {
   addInner("iniTabel", content);
 }
 
+
 export function isiTablep1(results) {
   results.forEach(isiRowp1);
 }
-
-
 function isiRowp1(value) {
   let content = 
   isiTabelp1.replace("#NAMA#", value.biodata_mahasiswa.nama)
