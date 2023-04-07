@@ -2,7 +2,7 @@ import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
 import { isiTabel, isiTabelp1 } from "../temp/table.js";
 
-
+/* 
 export function isiTable(results) {
   results.forEach(isiRow);
 }
@@ -19,7 +19,7 @@ function isiRow(value) {
           .replace("#WARNA#", getRandomColor())
           .replace(/#WARNALOGO#/g, getRandomColorName());
   addInner("iniTabel", content);
-}
+} */
 
 
 export function isiTablep1(results) {
