@@ -9,16 +9,12 @@ export let isiTabel =
             </div>
         </div>
     </th>
-    <th class="whitespace-nowrap px-4 bg-white text-left">
-        <div class="w-auto p-2">
-        <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JURUSAN#</th>
-        <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#PRODI#</th>
-        <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPEMBIMBING#</th>
-        <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPENGUJI#</th>
-        <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JUDUL#</th>
-        <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#TANGGALSIDANG#</th>
-        </div>
-      </div>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JURUSAN#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#PRODI#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPEMBIMBING#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#DOSENPENGUJI#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#JUDUL#</th>
+    <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">#TANGGALSIDANG#</th>
     </th>
 </tr>
 `
